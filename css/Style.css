@@ -1,0 +1,93 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+h1{
+    font-size: 100px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600;
+}
+h2{
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600;
+}
+h3{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600;
+}
+a, a:visited{
+    color:black;
+}
+a:hover, a:active{
+    text-decoration: none;
+    color:#999;
+}
+li{
+    list-style: none;
+    text-align: left;
+  
+}
+.intro-section {
+    height: 100%;
+    padding-top: 100px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
+    text-align: center;
+    background: #FFF;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
+    text-align: center;
+    background: #eee;
+}
+
+.tel-section {
+    height: 100%;
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
+    text-align: center;
+    background: #fff;
+}
+
+.clients-section {
+    height: 100%;
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
+    text-align: center;
+    background: #eee;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
+    text-align: center;
+    background: #fff;
+}
