@@ -70,7 +70,7 @@ li{
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-    background-image: url("../intro.jpg");
+    background-image: url("../Images/intro.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -97,7 +97,7 @@ li{
     font-family: 'Open Sans', sans-serif; 
     font-weight: 300;
     text-align: center;
-     background-image: url("../tv.jpg");
+     background-image: url("../Images/tv.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
