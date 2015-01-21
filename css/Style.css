@@ -25,26 +25,37 @@ h1{
     font-family: 'Open Sans', sans-serif; 
     font-weight: 600;
     color: white;
+    text-shadow: 5px 5px 20px #000;
 }
 h2{
     font-size: 50px;
     font-family: 'Open Sans', sans-serif; 
     font-weight: 600;
+    color: white;
+    text-shadow: 5px 5px 20px #000;
 }
 h3{
     font-size: 20px;
     font-family: 'Open Sans', sans-serif; 
     font-weight: 600;
+    color: #262626;
 }
 h4{
     color:white;
+    text-shadow: 5px 5px 20px #000;
+}
+
+.footer-text{
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600;
+    font-size: 15px;
 }
 a, a:visited{
-    color:black;
+    color:#262626;
 }
 a:hover, a:active{
     text-decoration: none;
-    color:#999;
+    color:#1a2784;
 }
 li{
     list-style: none;
@@ -53,29 +64,31 @@ li{
 }
 .intro-section {
     height: 100%;
-    padding-top: 100px;
     font-family: 'Open Sans', sans-serif; 
     font-weight: 300;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-  
-}
-#intro{
     margin-top: 100px;
-    background-image: url("");
-    background-size: 100%;
+    background-image: url("../intro.jpg");
+    background-attachment: fixed;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 100%;
-    background: black;
+    padding-top: 50px;
+    
 }
+
 .about-section {
     height: 100%;
     padding-top: 50px;
     font-family: 'Open Sans', sans-serif; 
     font-weight: 300;
-    text-align: center;
-    background: #eee;
+    line-height: 25px;
+    text-align: left;
+   background: #262626;
+}
+.images{
+    float:left;
 }
 
 .tel-section {
@@ -84,16 +97,10 @@ li{
     font-family: 'Open Sans', sans-serif; 
     font-weight: 300;
     text-align: center;
-    background: #fff;
-}
-
-.clients-section {
-    height: 100%;
-    padding-top: 50px;
-    font-family: 'Open Sans', sans-serif; 
-    font-weight: 300;
-    text-align: center;
-    background: #eee;
+     background-image: url("../tv.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .contact-section {
@@ -102,8 +109,24 @@ li{
     font-family: 'Open Sans', sans-serif; 
     font-weight: 300;
     text-align: center;
-    background: #fff;
+    background: #262626;
 }
 .fa-angle-down{
     color:white;
+}
+.text-muted{
+    padding-top: 10px;
+    height:40px;
+    text-align: center;
+}
+.white{
+    color: white;
+    text-shadow: 5px 5px 20px #000;
+}
+.fa-youtube-play:hover, .fa-angle-down:hover{
+    color: #1a2784;
+}
+.contact-info{
+    text-align: center;
+    line-height: 30px;
 }
