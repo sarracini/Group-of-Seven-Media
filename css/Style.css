@@ -10,7 +10,7 @@ html {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 0px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -74,8 +74,10 @@ li{
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 50px;
-    
+    padding-top: 150px;
+}
+#intro{
+    margin-top: 0px;
 }
 
 .about-section {
@@ -85,7 +87,7 @@ li{
     font-weight: 300;
     line-height: 25px;
     text-align: left;
-   background: #262626;
+    background: #262626;
 }
 .images{
     float:left;
@@ -130,3 +132,4 @@ li{
     text-align: center;
     line-height: 30px;
 }
+
