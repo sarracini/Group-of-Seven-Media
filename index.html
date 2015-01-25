@@ -24,35 +24,11 @@
       <!--Video-->
     <link href="http://vjs.zencdn.net/4.9/video-js.css" rel="stylesheet">
     <script src="http://vjs.zencdn.net/4.9/video.js"></script>
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+  
+    <!--My map scripts for the use of google maps -->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
-      <script>
-        function initialize() {
-            var mapCanvas = document.getElementById('map');
-            var mapOptions = {
-                center: new google.maps.LatLng(43.8452, -79.6280),
-                zoom: 15,
-                scrollwheel: false,
-                navigationControl: false,
-                mapTypeControl: false,
-                scaleControl: false,
-                disableDoubleClickZoom: true,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-                
-            }
-        var map = new google.maps.Map(mapCanvas, mapOptions)
-      }
-          google.maps.event.addDomListener(window, 'load', initialize);
-      </script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <script src="js/map.js"></script>
+      
   </head>
 
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -86,7 +62,7 @@
 <section id="intro" class="intro-section">
     <div class="container">
         <div class= "row">
-        <div class="col-md-12"><h1>Group of Seven Media</h1>
+        <div class="col-md-12 col-sm-12"><h1>Group of Seven Media</h1>
           
             <div class = "col-md-6 col-md-offset-3"><center>
             <h4>We are a sales and marketing organization that specializes in working with Canadian and US television stations and producers to provide advertisers with unique television commercial product placement opportunities.<br/> <br/>We represent YES TV, ATN-Asian Television Network’s media properties and numerous independent television producers.</h4>
@@ -101,7 +77,7 @@
 <section id="about" class="about-section">
     <div class="container">
         <div class = "row">
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12">
             <h2>About Us</h2> 
             
             <div class="col-md-8"><hr> <div class="white" style="text-align:left;">Group of Seven Media Ltd. is a sales and marketing organization that represents YES TV, ATN-Asian Television Network’s media properties and numerous independent television producers. Representing all segments of the television industry we secure commercial sales business in addition to product placement and television sponsorships, Industry breadth and diversity form the foundation of GO7M's success.With its twenty eight years of television broadcast and media experience, GO7M is uniquely equipped to provide its clients with a national, cross-cultural perspective, introducing them to new and exciting opportunities in virtually every area of the media and entertainment industry.<br/><br/>Whether you're a broadcaster looking for exceptional representation, a producer looking for additional sponsorship revenue or an advertiser looking for product integration with programming, we offer a unique expertise that delivers results.</div><hr></div>
@@ -125,7 +101,7 @@ current, borne back ceaselessly into the past.<i class="fa fa-quote-right fa-3x 
                
          <h4>  We represent a variety of TV stations and specialty/cable networks.</h4>
               </div>
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12">
                 <h3 class="white">TV Stations</h3>
            <div class="row">
   <div class="col-sm-6 col-md-4">
@@ -213,10 +189,8 @@ current, borne back ceaselessly into the past.<i class="fa fa-quote-right fa-3x 
 <section id="contact" class="contact-section">
     <div class="container">
            <div class = "row">
-        <div class="col-md-12">
+        <div class="col-md-12 col-sm-12">
             <h2>Contact</h2>
-            <div class="col-md-12">
-                
             <div class="col-md-8">
                 <!--Jeremy-->
                 <div class="media">
@@ -277,9 +251,10 @@ For more information on available marketing opportunities, please contact us at:
 </section>
         <!--/Contact-->
     <!--Map-->
-<section id="map" class="map-section">
-</section>
-        <!--/Contact-->
+      <section id="map" class="map-section">
+          <div class="col-md-12 col-sm-12"></div>
+      </section>
+        <!--/Map-->
 
       
      <footer>
@@ -302,8 +277,7 @@ For more information on available marketing opportunities, please contact us at:
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
       <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
