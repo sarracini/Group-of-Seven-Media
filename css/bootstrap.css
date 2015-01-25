@@ -4859,6 +4859,7 @@ a.thumbnail.active {
 }
 .media {
   margin-top: 15px;
+    padding-top: 10px;
 }
 .media:first-child {
   margin-top: 0;
@@ -4886,6 +4887,7 @@ a.thumbnail.active {
 .media-heading {
   margin-top: 0;
   margin-bottom: 5px;
+    text-align: left;
 }
 .media-list {
   padding-left: 0;
