@@ -1,6 +1,7 @@
 body {
     width: 100%;
     height: 100%;
+    font-family: 'Open Sans', sans-serif; 
 }
 
 html {
@@ -22,40 +23,36 @@ html {
 }
 h1{
     font-size: 100px;
-    font-family: 'Open Sans', sans-serif; 
     font-weight: 600;
     color: white;
     text-shadow: 5px 5px 20px #000;
 }
 h2{
     font-size: 50px;
-    font-family: 'Open Sans', sans-serif; 
     font-weight: 600;
     color: white;
     text-shadow: 5px 5px 20px #000;
 }
 h3{
     font-size: 20px;
-    font-family: 'Open Sans', sans-serif; 
     font-weight: 600;
     color: #262626;
 }
 h4{
     color:white;
-    text-shadow: 5px 5px 20px #000;
 }
 
 .footer-text{
-    font-family: 'Open Sans', sans-serif; 
     font-weight: 600;
     font-size: 15px;
 }
-a, a:visited{
+a, a:visited, a:active{
+    text-decoration: none;
     color:#262626;
 }
-a:hover, a:active{
+a:hover{
     text-decoration: none;
-    color:#1a2784;
+    color:#2c6ff8;
 }
 li{
     list-style: none;
@@ -63,7 +60,6 @@ li{
 }
 .intro-section {
     height: 100%;
-    font-family: 'Open Sans', sans-serif; 
     font-weight: 300;
     text-align: center;
     margin-left: auto;
@@ -82,20 +78,15 @@ li{
 .about-section {
     height: 100%;
     padding-top: 50px;
-    font-family: 'Open Sans', sans-serif; 
     font-weight: 300;
     line-height: 25px;
     text-align: center;
     background: #262626;
 }
-.images{
-    float:left;
-}
 
 .tel-section {
     height: 120%;
     padding-top: 50px;
-    font-family: 'Open Sans', sans-serif; 
     font-weight: 300;
     text-align: center;
      background-image: url("../Images/tv.jpg");
@@ -107,7 +98,6 @@ li{
 .contact-section {
     height: 110%;
     padding-top: 50px;
-    font-family: 'Open Sans', sans-serif; 
     font-weight: 300;
     text-align: center;
     background: #262626;
@@ -115,7 +105,6 @@ li{
 .map-section {
     height: 40%;
     padding-top: 50px;
-    font-family: 'Open Sans', sans-serif; 
     font-weight: 300;
     text-align: center;
     background: #CCC
@@ -133,7 +122,7 @@ li{
     text-shadow: 5px 5px 20px #000;
 }
 .fa-youtube-play:hover, .fa-angle-down:hover{
-    color: #1a2784;
+    color: black;
 }
 .contact-info{
     text-align: right;
@@ -142,7 +131,7 @@ li{
     font-size: 15px;
 }
 .fa-phone, .fa-envelope{
-    color:#2b43e7;
+    color:#2c6ff8;
     padding-right: 5px;
     
 }
@@ -152,15 +141,36 @@ li{
     padding-right: 5px;
     
 }
-.fa-facebook-square:hover, .fa-twitter-square:hover, .fa-google-plus-square:hover{
-    color:#2b43e7;
+.fa-facebook-square:hover{
+    color:#3A5795;
     padding-left: 5px;
     padding-right: 5px;
-    
 }
-.fa-quote-left, .fa-quote-right{
-    color:#2b43e7;
+.fa-twitter-square:hover{
+    color:#55ACEE;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.fa-google-plus-square:hover{
+    color:#DD4B39;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.fa-quote-left, .fa-quote-right, .fa-youtube-play{
+    color:#2c6ff8;
 }
 .group-image{
     margin-top: 50px;
+}
+#submitbutton{
+    float:right;
+}
+#formContainerLeft {
+    width:40%;
+    display: inline-block; 
+}
+#formContainerRight {
+    width:40%;
+    margin-left: 10%;
+    display: inline-block;
 }
