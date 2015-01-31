@@ -58,6 +58,10 @@ li{
     list-style: none;
     text-align: left;  
 }
+.termsList{
+    list-style: circle;
+    text-align: left;
+}
 .intro-section {
     height: 100%;
     font-weight: 300;
@@ -109,6 +113,32 @@ li{
     text-align: center;
     background: #CCC
 }
+.terms-section {
+    height: 270%;
+    padding-top: 50px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    background: #262626;
+}
+.terms2-section {
+    height: 200%;
+    padding-top: 50px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    background: #f8f8f8;
+}
+.terms3-section {
+    height: 50%;
+    padding-top: 50px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    background: #262626;
+}
+
+
 .fa-angle-down{
     color:white;
 }
@@ -173,4 +203,18 @@ li{
     width:40%;
     margin-left: 10%;
     display: inline-block;
+}
+.whiteLeft{
+    color:white;
+    text-align:left;
+}
+.blackLeft{
+    color:#262626;
+    text-align:left;
+}
+.black{
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray
 }
