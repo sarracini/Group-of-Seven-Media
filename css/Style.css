@@ -137,10 +137,12 @@ li{
     text-align: center;
     background: #262626;
 }
-
-
 .fa-angle-down{
     color:white;
+    padding-top: 20%;
+}
+.fa-angle-down:hover{
+    color:#2c6ff8;
 }
 .text-muted{
     padding-top: 10px;
@@ -151,7 +153,7 @@ li{
     color: white;
     text-shadow: 5px 5px 20px #000;
 }
-.fa-youtube-play:hover, .fa-angle-down:hover{
+.fa-youtube-play:hover{
     color: black;
 }
 .contact-info{
@@ -217,4 +219,7 @@ li{
     border-width:0;
     color:gray;
     background-color:gray
+}
+.modalImage {
+    text-align: center;
 }
