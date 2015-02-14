@@ -78,7 +78,6 @@ li{
 #intro{
     margin-top: 0px;
 }
-
 .about-section {
     height: 100%;
     padding-top: 50px;
@@ -87,18 +86,30 @@ li{
     text-align: center;
     background: #262626;
 }
-
+.stand-section {
+    height: 70%;
+    padding-top: 50px;
+    font-weight: 300;
+    line-height: 45px;
+    text-align: center;
+    background-image: url("../Images/phil2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#phil{
+    line-height: 40px;
+}
 .tel-section {
     height: 120%;
     padding-top: 50px;
     font-weight: 300;
     text-align: center;
-     background-image: url("../Images/tv.jpg");
+    background-image: url("../Images/tv.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .contact-section {
     height: 110%;
     padding-top: 50px;
@@ -139,7 +150,7 @@ li{
 }
 .fa-angle-down{
     color:white;
-    padding-top: 20%;
+    margin-top: 50%;
 }
 .fa-angle-down:hover{
     color:#2c6ff8;
@@ -167,7 +178,7 @@ li{
     padding-right: 5px;
     
 }
-.fa-facebook-square, .fa-twitter-square, .fa-google-plus-square{
+.fa-facebook-square, .fa-twitter-square, .fa-google-plus-square, .fa-linkedin-square{
     color: white;
     padding-left: 5px;
     padding-right: 5px;
@@ -188,11 +199,16 @@ li{
     padding-left: 5px;
     padding-right: 5px;
 }
+.fa-linkedin-square:hover{
+    color:#489DC9;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 .fa-quote-left, .fa-quote-right, .fa-youtube-play{
     color:#2c6ff8;
 }
 .group-image{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 #submitbutton{
     float:right;
@@ -226,4 +242,12 @@ li{
 #lightBlue{
     color: #2c6ff8;
     text-align:left;
+}
+#modalLogo {
+    margin-bottom: 10px;
+}
+
+#formContainerBottom {
+    width:100%;
+    display: inline-block; 
 }

@@ -8,9 +8,8 @@ function initialize() {
                 mapTypeControl: false,
                 scaleControl: false,
                 disableDoubleClickZoom: true,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-                
-            }
-        var map = new google.maps.Map(mapCanvas, mapOptions)
-      }
-          google.maps.event.addDomListener(window, 'load', initialize);
+                mapTypeId: google.maps.MapTypeId.ROADMAP,                
+            };
+            var map = new google.maps.Map(mapCanvas, mapOptions)
+}
+google.maps.event.addDomListener(window, 'load', initialize);
